@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Venus's Website</title>
+    <link rel="stylesheet" href="./index.css" />
+
+    <style>
+      @font-face {
+        :font-family: "GT Walsheim Pro";
+        src: url("GTWalsheimPro-Regular.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "GT Walsheim Pro";
+        src: url("GTWalsheimPro-Medium.ttf");
+        font-weight: 500;
+      }
+      @font-face {
+        :font-family: "GT Walsheim Pro";
+        src: url("GTWalsheimPro-Bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        :font-family: "GT Walsheim Pro";
+        src: url("GTWalsheimPro-Black.ttf");
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="homepage">
+      <div
+        class="jump-to-about-myself"
+        data-scroll-to="jumpToAboutMyself"
+      ></div>
+      <div class="jump-to-footer" data-scroll-to="jumpToFooter"></div>
+      <img class="circle-1-icon" alt="" src="./public/circle-1@2x.png" />
+
+      <img class="bottom-waves-icon" alt="" src="./public/bottom-waves.svg" />
+
+      <img class="top-wave-icon" alt="" src="./public/top-wave.svg" />
+
+      <img
+        class="picture-of-me"
+        alt=""
+        src="./public/picture-of-me@2x.png"
+        data-animate-on-scroll
+      />
+
+      <div class="diamonds">
+        <img class="diamond-icon" alt="" src="./public/diamond@2x.png" />
+
+        <img class="diamond-icon1" alt="" src="./public/diamond1@2x.png" />
+      </div>
+      <div class="footer-text">
+        <div class="thanks-for-visiting-text">
+          <b class="thanks-for-visiting">Thanks for visiting my page!</b>
+          <b class="built-and-designed">Built and Designed by me :)</b>
+        </div>
+        <div class="social-medias">
+          <div class="linkedin" id="linkedinContainer">
+            <img class="linkedin-icon" alt="" src="./public/linkedin.svg" />
+          </div>
+          <div class="github" id="githubContainer">
+            <div class="frame">
+              <img class="vector-icon" alt="" src="./public/vector.svg" />
+            </div>
+          </div>
+          <img class="mail-icon" alt="" src="./public/mail.svg" id="mail" />
+        </div>
+      </div>
+      <b class="find-me-here">Find me here: </b>
+      <div class="skills-box" data-animate-on-scroll>
+        <div class="frame1"></div>
+        <div class="frame2">
+          <div class="skills-parent">
+            <div class="skills"></div>
+            <div class="skills-text">
+              <div class="languages-parent">
+                <b class="languages">Languages:</b>
+                <div class="frame-parent">
+                  <div class="frame3">
+                    <b class="javascript">Javascript</b>
+                    <b class="htmlcss">HTML/CSS</b>
+                    <b class="react">React</b>
+                  </div>
+                  <div class="frame4">
+                    <b class="java">Java</b>
+                    <b class="python">Python</b>
+                  </div>
+                </div>
+              </div>
+              <div class="software-skills-parent">
+                <b class="thanks-for-visiting">Software Skills:</b>
+                <div class="frame-group">
+                  <div class="frame5">
+                    <b class="illustrator">Illustrator</b>
+                    <b class="photoshop">Photoshop</b>
+                  </div>
+                  <div class="frame6">
+                    <b class="blender">Blender</b>
+                    <b class="unity">Unity</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-set-box" data-animate-on-scroll>
+        <div class="my-skill-set">
+          <img
+            class="background-skillset-icon"
+            alt=""
+            src="./public/background-skillset.svg"
+          />
+
+          <div class="frame7">
+            <div class="frame8">
+              <div class="frame-child"></div>
+              <b class="my-skill-set1">MY SKILL SET</b>
+            </div>
+            <div class="my-work-focuses">
+              My work focuses on the front-end development, In my free time I
+              enjoy learning about game development as well as personal projects
+              focused on design and functionality. I enjoy working with the UX
+              and UI design on projects as well.
+            </div>
+          </div>
+        </div>
+        <div class="swirl">
+          <div class="frame9">
+            <img class="swirl-icon" alt="" src="./public/swirl@2x.png" />
+          </div>
+          <img class="frame-icon" alt="" src="./public/frame.svg" />
+        </div>
+      </div>
+      <b class="recent-projects-container">
+        <span>Recent Projects</span>
+        <span class="span"> </span>
+        <span class="span1">+</span>
+      </b>
+      <div class="nav-bar">
+        <img
+          class="nguyen-icon"
+          alt=""
+          src="./public/nguyen@2x.png"
+          id="nguyenImage"
+        />
+
+        <div class="top-buttons">
+          <div class="about" id="aboutText">About</div>
+          <div class="resume" id="resumeText">Resume</div>
+          <div class="get-in-touch" id="getInTouch1">
+            <div class="get-in-touch1">Get in Touch</div>
+          </div>
+        </div>
+      </div>
+      <div class="projects" data-animate-on-scroll>
+        <div class="dashboard-doc">
+          <img
+            class="dashboard-doc-child"
+            alt=""
+            src="./public/rectangle-18@2x.png"
+          />
+
+          <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+
+          <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+
+          <div class="documentation-website">Documentation Website</div>
+          <div class="centralizes-all-forms">
+            Centralizes all forms of documentation in real time for Retirement
+            web tool.
+          </div>
+        </div>
+        <div class="bloomingleaf">
+          <img
+            class="dashboard-doc-child"
+            alt=""
+            src="./public/rectangle-181@2x.png"
+          />
+
+          <img class="vector-icon1" alt="" src="./public/vector3.svg" />
+
+          <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+
+          <div class="documentation-website">Research Tool</div>
+          <div class="centralizes-all-forms">
+            Implemented Visual features within lab’s web tool.
+          </div>
+        </div>
+        <div class="dashboard-doc">
+          <img
+            class="dashboard-doc-child"
+            alt=""
+            src="./public/rectangle-182@2x.png"
+          />
+
+          <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+
+          <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+
+          <div class="documentation-website">Adventure Game</div>
+          <div class="centralizes-all-forms">
+            Created a java based adventure game using graphs!
+          </div>
+        </div>
+      </div>
+      <div class="stars-circles">
+        <img class="lime-star-icon" alt="" src="./public/lime-star@2x.png" />
+
+        <img class="lime-star-icon1" alt="" src="./public/lime-star1@2x.png" />
+
+        <div class="frame10">
+          <img
+            class="green-star-icon"
+            alt=""
+            src="./public/green-star@2x.png"
+          />
+
+          <img
+            class="lime-star-icon2"
+            alt=""
+            src="./public/lime-star2@2x.png"
+          />
+
+          <img
+            class="lime-star-icon3"
+            alt=""
+            src="./public/lime-star3@2x.png"
+          />
+        </div>
+        <div class="frame11">
+          <img
+            class="green-star-icon1"
+            alt=""
+            src="./public/green-star1@2x.png"
+          />
+
+          <img
+            class="green-star-icon2"
+            alt=""
+            src="./public/green-star2@2x.png"
+          />
+
+          <img
+            class="white-star-icon"
+            alt=""
+            src="./public/white-star@2x.png"
+          />
+        </div>
+        <div class="frame12">
+          <img
+            class="green-star-icon3"
+            alt=""
+            src="./public/green-star3@2x.png"
+          />
+
+          <img
+            class="white-star-icon1"
+            alt=""
+            src="./public/white-star1@2x.png"
+          />
+
+          <img
+            class="white-star-icon2"
+            alt=""
+            src="./public/white-star2@2x.png"
+          />
+
+          <img
+            class="white-star-icon3"
+            alt=""
+            src="./public/white-star3@2x.png"
+          />
+        </div>
+      </div>
+      <div class="bio" data-animate-on-scroll>
+        <div class="frame13">
+          <div class="div">.</div>
+          <img class="venus-icon" alt="" src="./public/venus@2x.png" />
+
+          <b class="hi-there-im">Hi there, I’m</b>
+        </div>
+        <div class="im-a-junior">
+          I’m a Junior in college majoring in Computer Science. I’m passionate
+          about the creative process of jumping into a project and the grueling
+          trial and error of learning something new. I spend most of my times
+          watching videos of new tech and self learning. On the side I like to
+          draw and finding new hobbies!
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var linkedinContainer = document.getElementById("linkedinContainer");
+      if (linkedinContainer) {
+        linkedinContainer.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/in/venus-nguyen-391166230/");
+        });
+      }
+      
+      var githubContainer = document.getElementById("githubContainer");
+      if (githubContainer) {
+        githubContainer.addEventListener("click", function () {
+          window.open("https://github.com/Vbeany");
+        });
+      }
+      
+      const mail = document.getElementById("mail");
+      if (mail) {
+        mail.addEventListener("click", function () {
+          window.location.href = "mailto:venusnguyen17@gmail.com";
+        });
+      }
+      
+      var nguyenImage = document.getElementById("nguyenImage");
+      if (nguyenImage) {
+        nguyenImage.addEventListener("click", function () {
+          window.open("https://vbeany.github.io/");
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='jumpToAboutMyself']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var resumeText = document.getElementById("resumeText");
+      if (resumeText) {
+        resumeText.addEventListener("click", function () {
+          window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        });
+      }
+      
+      var getInTouch1 = document.getElementById("getInTouch1");
+      if (getInTouch1) {
+        getInTouch1.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='jumpToFooter']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
