@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Regular";
+  src: url("public/GTWalsheimPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("public/GTWalsheimPro-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("public/GTWalsheimPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Black";
+  src: url("public/GTWalsheimPro-Black.ttf");
+}
+
 @keyframes slide-in-top {
   0% {
     transform: translateY(-200px);
@@ -116,6 +136,7 @@
 }
 .built-and-designed,
 .thanks-for-visiting {
+  font-family: 'Bold';
   align-self: stretch;
   position: relative;
 }
@@ -208,6 +229,7 @@
   gap: 516px;
 }
 .find-me-here {
+  font-family: 'Bold';
   top: 3215px;
   left: calc(50% + 275px);
   align-items: center;
@@ -391,7 +413,6 @@
   font-size: 18px;
   color: #fff;
 }
-.skills-text,
 .software-skills-parent {
   align-items: flex-start;
   justify-content: flex-start;
@@ -403,6 +424,7 @@
   gap: 26px;
 }
 .skills-text {
+  font-family: 'Bold';
   margin: 0 !important;
   position: absolute;
   top: 57px;
@@ -479,6 +501,7 @@
   gap: 5px;
 }
 .my-work-focuses {
+  font-family: 'Medium';
   align-self: stretch;
   position: relative;
   font-size: 24px;
@@ -498,6 +521,7 @@
   gap: 4px;
 }
 .my-skill-set {
+  font-family: 'Bold';
   position: absolute;
   top: 24px;
   left: calc(50% - 234.5px);
@@ -559,6 +583,7 @@
   color: #bdd86b;
 }
 .recent-projects-container {
+  font-family: 'Bold';
   position: absolute;
   top: 2128px;
   left: calc(50% - 560px);
@@ -598,6 +623,7 @@
 .get-in-touch,
 .nav-bar,
 .top-buttons {
+  font-family: 'Black';
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -673,24 +699,27 @@
   bottom: -0.53%;
   left: -0.73%;
 }
-.centralizes-all-forms,
 .documentation-website {
+  font-family: 'Medium';
+  height: 5.77%;
+  width: 75.58%;
+  top: 64.63%;
+  font-weight: 500;
   position: absolute;
   left: 11.92%;
   display: flex;
   align-items: center;
 }
-.documentation-website {
-  height: 5.77%;
-  width: 75.58%;
-  top: 64.63%;
-  font-weight: 500;
-}
 .centralizes-all-forms {
+  font-family: 'Regular';
   height: 13.46%;
   width: 73.26%;
   top: 72.74%;
   font-size: 18px;
+  position: absolute;
+  left: 11.92%;
+  display: flex;
+  align-items: center;
 }
 .bloomingleaf,
 .dashboard-doc {
@@ -913,6 +942,7 @@
   object-fit: cover;
 }
 .hi-there-im {
+  font-family: 'Bold';
   position: absolute;
   top: 0;
   left: 4px;
@@ -921,6 +951,7 @@
 }
 .frame13,
 .im-a-junior {
+  font-family: 'Medium';
   align-self: stretch;
   position: relative;
 }
